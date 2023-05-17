@@ -4,8 +4,9 @@ using namespace std;
 
 class integer
 {
-    public:
     int m,n;
+    public:
+    
     integer(){m = 0; n = 0;} //Constructor with no parameter
     integer(int x , int y) //Constructir with two parameters
     {

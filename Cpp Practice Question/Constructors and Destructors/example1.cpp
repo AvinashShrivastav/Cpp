@@ -4,10 +4,16 @@ using namespace std;
 
 class integer
 {
-    
-    public:
     int m, n;
+    public:
+    
     integer(void);
+    void show()
+    {
+    cout << m;
+    cout << n;
+
+    }
 };
 
 integer :: integer(void) //default constructor as it accept no paramter
@@ -19,7 +25,6 @@ integer :: integer(void) //default constructor as it accept no paramter
 int main()
 {
     integer x;
-    cout << x.m;
-    cout << x.n;
+    x.show();
 
 }

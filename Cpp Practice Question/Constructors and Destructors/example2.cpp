@@ -5,9 +5,16 @@ using namespace std;
 
 class integer
 {
-    public:
     int m ,n;
+    public:
+    
     integer(int x, int y);
+    void show()
+    {
+    cout << m<<endl;
+    cout << n<<endl;
+
+    }
 };
 integer :: integer(int x, int y)
 {
@@ -22,8 +29,8 @@ int main()
     // cout<<B;
 
     integer A(2,4); // implicit call
-    cout<< A.m<<endl<<A.n<<endl; 
+    A.show();
 
     integer B = integer(3,5);  //explict call
-    cout<<B.m<<endl<<B.n;
+    B.show();
 }

@@ -5,8 +5,9 @@ using namespace std;
 
 class complex
 {
-    public:
     float x, y;
+    public:
+    
     complex(){} //constructor with no arg
     complex(float a ) //constructor with one arg
     {
