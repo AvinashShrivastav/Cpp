@@ -33,4 +33,6 @@ int main()
 
     integer B = integer(3,5);  //explict call
     B.show();
+
+    return 0;
 }

@@ -6,7 +6,6 @@ class integer
 {
     int m, n;
     public:
-    
     integer(void);
     void show()
     {
@@ -26,5 +25,7 @@ int main()
 {
     integer x;
     x.show();
+
+    return 0;
 
 }

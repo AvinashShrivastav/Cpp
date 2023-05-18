@@ -20,4 +20,6 @@ int main()
 {
     integer A(3,5);
     A.show();
+
+    return 0;
 }

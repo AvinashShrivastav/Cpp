@@ -32,4 +32,6 @@ int main(){
     B.display();
     integer C(B);
     C.display();
+
+    return 0;
 }
