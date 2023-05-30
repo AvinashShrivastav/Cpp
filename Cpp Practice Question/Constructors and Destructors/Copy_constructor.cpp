@@ -3,7 +3,9 @@ using namespace std;
 
 class code 
 {
+
     int id;
+
     public :
     code() {} //constructor
     code(int a)
@@ -32,6 +34,7 @@ int main()
     cout<<"id of B is "; B.display();
     cout<<"id of C is "; C.display();
     cout<<"id of D is "; D.display();
+    
 
     return 0;
 
