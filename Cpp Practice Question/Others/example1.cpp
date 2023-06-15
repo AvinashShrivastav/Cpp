@@ -18,5 +18,5 @@ int main(){
     cout << a.*ip<<endl;
     cout << a.m<<endl;
     ap = &a;
-    cout<<ap ->*ip;
+    cout<<ap->*ip;
 }
