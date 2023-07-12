@@ -1,3 +1,16 @@
+/*
+4.	Write a menu driven program to perform string manipulation (without using inbuilt string functions): 
+    a.	Show address of each character in string
+    b.	Concatenate two strings. 
+    c.	Compare two strings 
+    d.	Calculate length of the string (use pointers) 
+    e.	Convert all lowercase characters to uppercase 
+    f.	Reverse the string 
+    g.	Insert a string in another string at a user specified position
+
+
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -161,10 +174,17 @@ int len(string &x)
 
 int stringLength(string str) 
 {
-    int count = 0;
-    for(int i = 0; i <str.length(); i++)
-    {
-        count++;
+    
+    char *sptr;
+    sptr=&str[0];
+
+    int count=0;
+
+    int i=0;
+    while(*sptr!='\0'){
+            sptr++;
+            count++;
+
     }
     return count;
 }
@@ -208,3 +228,97 @@ string insertString(string str1, string str2, int pos)
     return(newStr);
 
     }
+
+
+/*
+
+Output :
+
+String Manipulation Program : Press a-g to manipulate strings, press spacebar to exit
+       a.       Show address of each character in string
+       b.       Concatenate two strings.
+       c.       Compare two strings
+       d.       Calculate length of the string (use pointers)
+       e.       Convert all lowercase characters to uppercase
+       f.       Reverse the string
+       g.       Insert a string in another string at a user specified position
+Enter your response : a
+Enter a string : Apple
+Position of A: 0x41
+Position of p: 0x70
+Position of p: 0x70
+Position of l: 0x6c
+Position of e: 0x65
+String Manipulation Program : Press a-g to manipulate strings, press spacebar to exit
+       a.       Show address of each character in string
+       b.       Concatenate two strings.
+       c.       Compare two strings
+       d.       Calculate length of the string (use pointers)
+       e.       Convert all lowercase characters to uppercase
+       f.       Reverse the string
+       g.       Insert a string in another string at a user specified position
+Enter your response : b
+Enter first string : Apple
+Enter second string : Mango
+AppleMango
+String Manipulation Program : Press a-g to manipulate strings, press spacebar to exit
+       a.       Show address of each character in string
+       b.       Concatenate two strings.
+       c.       Compare two strings
+       d.       Calculate length of the string (use pointers)
+       e.       Convert all lowercase characters to uppercase
+       f.       Reverse the string
+       g.       Insert a string in another string at a user specified position
+Enter your response : c
+Enter first string : Pizza
+Enter second string : Burger
+Pizza > Burger
+String Manipulation Program : Press a-g to manipulate strings, press spacebar to exit
+       a.       Show address of each character in string
+       b.       Concatenate two strings.
+       c.       Compare two strings
+       d.       Calculate length of the string (use pointers)
+       e.       Convert all lowercase characters to uppercase
+       f.       Reverse the string
+       g.       Insert a string in another string at a user specified position
+Enter your response : d
+Enter a string : Apple
+5
+String Manipulation Program : Press a-g to manipulate strings, press spacebar to exit
+       a.       Show address of each character in string
+       b.       Concatenate two strings.
+       c.       Compare two strings
+       d.       Calculate length of the string (use pointers)
+       e.       Convert all lowercase characters to uppercase
+       f.       Reverse the string
+       g.       Insert a string in another string at a user specified position
+Enter your response : e
+Enter a string : Hello
+HELLO
+String Manipulation Program : Press a-g to manipulate strings, press spacebar to exit
+       a.       Show address of each character in string
+       b.       Concatenate two strings.
+       c.       Compare two strings
+       d.       Calculate length of the string (use pointers)
+       e.       Convert all lowercase characters to uppercase
+       f.       Reverse the string
+       g.       Insert a string in another string at a user specified position
+Enter your response : f
+Enter a string : Avinash
+hsanivA
+String Manipulation Program : Press a-g to manipulate strings, press spacebar to exit
+       a.       Show address of each character in string
+       b.       Concatenate two strings.
+       c.       Compare two strings
+       d.       Calculate length of the string (use pointers)
+       e.       Convert all lowercase characters to uppercase
+       f.       Reverse the string
+       g.       Insert a string in another string at a user specified position
+Enter your response : g
+Enter first string 1 : Avinash 
+Enter second string 2 : Shrivastava
+Enter position where you want to insert string 2 : 7
+AvinashShrivastava
+
+
+*/

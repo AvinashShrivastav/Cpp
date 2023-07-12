@@ -81,3 +81,23 @@ int main()
 
     return 0;
 }
+
+
+
+/*
+Output :
+
+PS C:\Users\hp\Desktop\Cpp\Cpp Practicals\Q8> cd "c:\Users\hp\Desktop\Cpp\Cpp Practicals\Q9\" ; if ($?) { g++ Q9.cpp -o Q9 } ; if ($?) { .\Q9 }
+Employee's details :
+Name : Anshu
+Department : Tech
+Salary : 900000
+
+Student's details :
+Name : Ravi
+Course : CS
+Marks : 123
+Year : 2023
+PS C:\Users\hp\Desktop\Cpp\Cpp Practicals\Q9> 
+
+*/

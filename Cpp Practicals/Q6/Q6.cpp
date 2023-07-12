@@ -1,3 +1,5 @@
+// 6.	Write a program to search a given element in a set of N numbers. 
+
 #include <iostream>
 using namespace std;
 
@@ -29,3 +31,17 @@ int main()
         cout <<search_int<<" is not in the set";
     }
 }
+
+
+/*
+
+Output :
+PS C:\Users\hp\Desktop\Cpp\Cpp Practicals\Q5> cd "c:\Users\hp\Desktop\Cpp\Cpp Practicals\Q6\" ; if ($?) { g++ Q6.cpp -o Q6 } ; if ($?) { .\Q6 }
+Enter number to be searched : 45
+45 is not in the set
+
+PS C:\Users\hp\Desktop\Cpp\Cpp Practicals\Q6> cd "c:\Users\hp\Desktop\Cpp\Cpp Practicals\Q6\" ; if ($?) { g++ Q6.cpp -o Q6 } ; if ($?) { .\Q6 }
+Enter number to be searched : 1
+1 found at 1 position
+PS C:\Users\hp\Desktop\Cpp\Cpp Practicals\Q6> 
+*/

@@ -1,3 +1,7 @@
+/*
+7.	Write a program to calculate GCD of two numbers. 
+*/
+
 #include <iostream>
 using namespace std;
 int main()
@@ -27,47 +31,16 @@ int main()
 
 }
 
+/*
+Output:
+
+PS C:\Users\hp\Desktop\Cpp> cd "c:\Users\hp\Desktop\Cpp\Cpp Practicals\Q7\" ; if ($?) { g++ Q7.cpp -o Q7 } ; if ($?) { .\Q7 }
+Enter num 1 : 66
+Enter num 2 : 4
+Required GCD : 2
+PS C:\Users\hp\Desktop\Cpp\Cpp Practicals\Q7> 
+
+*/
 
 
-
-// int factors(int);
-// int commonFactors(int, int);
-// int main()
-// {
-//     int num1 = 5;
-//     // cin>>num1;
-//     int num2 = 6;
-//     // cin>>num2;
-//     factorOfNum1 = factors(6); 
-//     for (int i = 0; i < num1; i ++)
-//         {
-//             cout<<factorOfNum1[i]<<" ";
-//         }
-// }
-// int factors(int num1)
-// {
-//     int  factors(int num1);
-//     {
-//         int factorList[num1];
-//         for(int i = 0; i < num1 ; i++)
-//         {
-//             factorList[i] = 0;
-//         }
-//         for (int i = 1; i <=num1; i ++)
-//         {
-//             if(num1 % i == 0)
-//             {
-//                 factorList[i-1] = 1;
-
-//             }
-//         }
-        
-//     }
-//     return(factorList);
-// }
-
-// int commonFactors(int a, int b)
-// {
-
-// }
 

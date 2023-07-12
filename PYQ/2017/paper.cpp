@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 // int main()
@@ -162,3 +163,43 @@ using namespace std;
 //     B.print();
 
 // }
+
+
+int main()
+{
+    ifstream file;
+    file.open("textfile.txt");
+    ofstream copyFile("copyFile.txt");
+    string line;
+ 
+    while(file)
+    {
+       
+        getline(file, line);
+        string newLine;
+
+        for(int i = 0; i < line.length()-1; i++)
+
+        {
+            if( line[i] == ' ')
+            {
+                if(line[i+1] == ' ')
+                {
+                    continue;
+                }
+                else{
+                    newLine += line[i];
+                }
+                
+            }
+            else{
+                newLine += line[i];    
+            }
+    
+        }
+        copyFile<<newLine<<endl;
+        
+    }
+
+
+}
