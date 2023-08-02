@@ -4,7 +4,7 @@ using namespace std;
 
 class matrix
 {
-    int **p;
+    int **p; //pointer to matrix
     int d1 ,d2;
     public:
         matrix(int x, int y);

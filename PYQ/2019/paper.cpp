@@ -92,3 +92,48 @@ using namespace std;
 // {
     
 // }
+
+// class Base
+// {
+//     public:
+//     Base()
+//     {
+//         cout<<"Inside Base"<<endl;
+//     }
+// };
+
+// class Derived1: public Base{
+//     public:
+//     Derived1()
+//     {
+//         cout<<"Inside Derived 1"<<endl;
+//     }
+// };
+// class Derived2 : public Derived1{
+//     public:
+//     Derived2()
+//     {
+//         cout<<"Inside Derived 2"<<endl;
+//     }
+    
+// };
+// int main()
+// {
+//     Base b1;
+//     Derived1 d1;
+//     Derived2 d2;
+// }
+
+
+// void f(int *p)
+// {
+//     int a;
+//     *p = a;
+//     *a = *a +1;
+//     return a;
+// }
+
+void try(int a, int b)
+{
+    if (a<0) throws "Negative number";
+}
